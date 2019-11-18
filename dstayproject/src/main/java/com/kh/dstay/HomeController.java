@@ -24,7 +24,7 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "home.do", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
-		
+		int a = 0;
 		
 		return "4_jong/mainPage";
 	}
